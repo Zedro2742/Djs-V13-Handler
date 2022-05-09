@@ -1,11 +1,5 @@
 const Discord = require('discord.js');
 const config = require("../botconfig/config.json");
-const {
-  join
-} = require("path");
-const {
-  registerFont
-} = require("canvas");
 
 /**
  * @param {Discord.Client} client
@@ -56,11 +50,6 @@ ${`Support Us By Join Our Server!`.brightMagenta} ${`Discord Server Link:`.brigh
         //console.log(String(e.stack).bgRed)
       }
     }
-  });
-
-  // Registering Canvas Font 
-  registerFont(join(__dirname, "../fonts", "impact.ttf"), {
-    family: "Impact"
   });
 
   client.logger(`・Loaded ExtraEvents`.brightGreen);
