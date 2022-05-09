@@ -1,0 +1,27 @@
+{
+    "env": {
+        "TOKEN": "",
+        "PREFIX": "",
+        "MongoDB_TOKEN": ""
+    },
+    "role_color": true,
+    "color": "GOLD",
+    "wrongcolor": "RED",
+    "maintenance_mode": false,
+    "botlogs": {
+        "errorLogsChannel": "922128954645696543"
+    },
+    "bot_config": {
+        "bot_name": "",
+        "client_Id": "",
+        "invite_link": "",
+        "no_slash_invite_link": ""
+    },
+    "events": {
+        "Enable_debug": false
+    },
+    "ownerID": ["850303341435027466"],
+    "SlashCommandsGlobal": true,
+    "SlashCommand_Server_id": "",
+    "Enable_MongoDB": true
+}
