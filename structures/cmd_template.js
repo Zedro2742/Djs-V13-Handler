@@ -16,7 +16,7 @@ module.exports = {
    * @param {Discord.String[]} args
    */
 
-  async execute(client, message, args, Discord, config, embedcolor, prefix, guild_db, user_db, bot_count_db, premium_server_db) {
+  async execute(client, message, args, Discord, config, embedcolor, prefix) {
     try {
       // Start Coding
     } catch (e) {
@@ -44,7 +44,7 @@ module.exports = {
    * @param {Discord.String[]} args
    */
 
-  async execute(client, message, args, Discord, config, embedcolor, prefix, guild_db, user_db, bot_count_db, premium_server_db) {
+  async execute(client, message, args, Discord, config, embedcolor, prefix) {
     try {
       // Start Coding
     } catch (e) {
