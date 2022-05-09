@@ -19,7 +19,7 @@ module.exports = {
           `Bot User: `.brightBlue + `${client.user.tag}`.blue + `\n` +
           `Guild(s): `.brightBlue + `${client.guilds.cache.size} Servers`.blue + `\n` +
           `Watching: `.brightBlue + `${Math.ceil(client.users.cache.size / 1000)}k Members`.blue + `\n` +
-          `Prefix: `.brightBlue + `${process.env.PREFIX || config.env.PREFIX}`.blue + `\n` +
+          `Prefix: `.brightBlue + `${process.env.PREFIX}`.blue + `\n` +
           `Commands: `.brightBlue + `${client.commands.size}`.blue + `\n` +
           `Slash Commands: `.brightBlue + `${client.slashCommands.size}`.blue + `\n` +
           `Discord.js: `.brightBlue + `v${Discord.version}`.blue + `\n` +
