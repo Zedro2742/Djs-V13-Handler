@@ -1,4 +1,6 @@
 // Commands Template
+const Discord = require("discord.js");
+
 module.exports = {
   name: '',
   aliases: [],
@@ -13,10 +15,10 @@ module.exports = {
   /**
    * @param {Discord.Client} client 
    * @param {Discord.Message} message
-   * @param {Discord.String[]} args
+   * @param {String[]} args
    */
 
-  async execute(client, message, args, Discord, config, embedcolor, prefix) {
+  async execute(client, message, args, config, embedcolor) {
     try {
       // Start Coding
     } catch (e) {
@@ -28,6 +30,8 @@ module.exports = {
 // ---------------------------------------------------
 
 // Slash Command Template
+const Discord = require("discord.js");
+
 module.exports = {
   name: '',
   usage: '',
@@ -41,10 +45,10 @@ module.exports = {
   /**
    * @param {Discord.Client} client 
    * @param {Discord.CommandInteraction} interaction
-   * @param {Discord.String[]} args
+   * @param {String[]} args
    */
 
-  async execute(client, message, args, Discord, config, embedcolor, prefix) {
+  async execute(client, interaction, args, config, embedcolor) {
     try {
       // Start Coding
     } catch (e) {
