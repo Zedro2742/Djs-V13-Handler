@@ -72,7 +72,7 @@ module.exports = {
 								embeds: [new Discord.MessageEmbed()
 									.setAuthor({
 										name: `Maintenance Mode On`,
-										iconURL: message.author.displayAvatarURL({
+										iconURL: interaction.user.displayAvatarURL({
 											dynamic: true
 										}),
 										url: config_support.server_link
