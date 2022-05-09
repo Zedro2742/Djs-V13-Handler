@@ -12,10 +12,10 @@
         "errorLogsChannel": "922128954645696543"
     },
     "bot_config": {
-        "bot_name": "",
-        "client_Id": "",
-        "invite_link": "",
-        "no_slash_invite_link": ""
+        "bot_name": "djs_v13_handler",
+        "client_Id": "825358991059058708",
+        "invite_link": "https://discord.com/api/oauth2/authorize?client_id=825358991059058708&permissions=8&scope=bot%20applications.commands",
+        "no_slash_invite_link": "https://discord.com/api/oauth2/authorize?client_id=825358991059058708&permissions=8&scope=bot"
     },
     "events": {
         "Enable_debug": false
