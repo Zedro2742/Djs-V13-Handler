@@ -40,7 +40,7 @@ module.exports = async (client) => {
           })
           .setColor("RED")
           .setTitle(`${client.allEmojis.x} An Error Occured:`)
-          .setDescription(`\`\`\`${e}\`\`\``)
+          .setDescription(`\`\`\`${reason}\`\`\``)
           .setTimestamp()
         ]
       })
