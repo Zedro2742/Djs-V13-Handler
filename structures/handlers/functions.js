@@ -32,7 +32,12 @@ function onCoolDown(message, command) {
   }
 }
 
+
+/**
+ * @param {string} str
+ */
 function escapeRegex(str) {
+  if (typeof str !== "string") throw new TypeError("Parameter must be a string");
   try {
     return str.replace(/[.*+?^${}()|[\]\\]/g, `\\$&`);
   } catch (e) {
